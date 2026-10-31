@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تحميل تطبيق مساحتي</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center;
+      background: radial-gradient(ellipse at 50% 30%, #1a2250, #080b18);
+      color: #f0f3ff; font-family: "Segoe UI", Tahoma, sans-serif; text-align: center; padding: 24px;
+    }
+    .card {
+      max-width: 420px; width: 100%; padding: 40px 28px;
+      border: 1px solid rgba(156,174,255,.18); border-radius: 24px;
+      background: rgba(15,20,42,.78); box-shadow: 0 20px 60px rgba(0,0,0,.4);
+    }
+    .logo { width: 72px; height: 72px; margin: 0 auto 20px; display: grid; place-items: center; border-radius: 20px; background: linear-gradient(145deg, rgba(91,124,255,.35), rgba(162,116,255,.2)); border: 1px solid rgba(151,167,255,.3); font-size: 34px; }
+    h1 { margin: 0 0 8px; font-size: 26px; }
+    p { margin: 0 0 28px; color: #8c96b8; font-size: 13px; line-height: 1.7; }
+    .btn {
+      display: block; width: 100%; padding: 14px; margin-bottom: 12px; border-radius: 12px;
+      border: 1px solid rgba(129,153,255,.38); background: linear-gradient(110deg, rgba(75,110,228,.85), rgba(125,86,204,.85));
+      color: white; font-size: 15px; font-weight: 600; text-decoration: none; cursor: pointer; transition: .2s;
+    }
+    .btn:hover { filter: brightness(1.15); }
+    .btn.secondary { background: rgba(18,24,49,.72); border-color: rgba(156,174,255,.16); color: #cbd4f5; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">✳</div>
+    <h1>مساحتي</h1>
+    <p>اختر النسخة التي تناسب جهازك لتحميل التطبيق:</p>
+
+    <!-- ضع رابط APK هنا -->
+    <a class="btn" href="ضع_رابط_ملف_الاندرويد_هنا" download>تحميل تطبيق أندرويد (APK)</a>
+    
+    <!-- ضع رابط EXE هنا -->
+    <a class="btn secondary" href="ضع_رابط_ملف_الويندوز_هنا" download>تحميل تطبيق ويندوز (EXE)</a>
+
+    <!-- بخصوص الآيفون -->
+    <a class="btn secondary" href="ضع_رابط_ملف_الزيب_هنا" download>تحميل ملف مشروع الآيفون (ZIP)</a>
+    <p style="font-size: 11px; margin-top: -5px; margin-bottom: 15px;">
+      ملاحظة للآيفون: لاستخدام التطبيق، افتح صفحة الويب هذه من متصفح Safari، ثم اضغط زر المشاركة واختر "إضافة إلى الشاشة الرئيسية".
+    </p>
+
+  </div>
+</body>
+</html>
